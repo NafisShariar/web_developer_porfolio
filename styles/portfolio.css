@@ -11,11 +11,18 @@ body {
 .btn-primary {
   border-radius: 5px;
   background: #fd6e0a;
+  border: none;
+  color: var(--white-color, #fff);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 16px 30px;
 }
 
 /* nav realted styles */
 nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 /* Nav-title mary style */
 .nav-title {
@@ -25,6 +32,7 @@ nav {
 }
 nav > ul {
   display: flex;
+  align-items: center;
 }
 /* removing list style dots and creating 50px space of margin to the right */
 nav li {
