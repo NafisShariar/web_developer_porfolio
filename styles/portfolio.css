@@ -23,6 +23,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0px 200px;
 }
 /* Nav-title mary style */
 .nav-title {
@@ -43,4 +44,9 @@ nav li {
 nav a {
   text-decoration: none;
   color: var(--dark-02, #474747);
+}
+
+/* header styles */
+.header {
+  background-color: #fff8f3;
 }
