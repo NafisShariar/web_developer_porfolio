@@ -8,3 +8,11 @@ nav {
   display: flex;
 }
 /* Nav-title mary style */
+.nav-title {
+  color: #181818;
+  font-family: Open Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
