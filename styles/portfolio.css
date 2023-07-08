@@ -1,4 +1,6 @@
-/* common shared style */
+* {
+  margin: 0;
+}
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -9,6 +11,7 @@ body {
 /* button primary */
 
 .btn-primary {
+  /* used for buttons hire me contact download CV*/
   border-radius: 5px;
   background: #fd6e0a;
   border: 0;
@@ -24,6 +27,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin: 0px 200px;
+  padding: 8px;
 }
 /* Nav-title mary style */
 .nav-title {
@@ -58,8 +62,13 @@ nav a {
   padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; /* To make space between content and image*/
 }
+
+.banner-content {
+  max-width: 500px;
+}
+
 .banner .profile-picture {
   width: 500px;
 }
@@ -77,6 +86,6 @@ nav a {
   margin-bottom: 20px;
 }
 
-.banner-content {
-  max-width: 500px;
-}
+/* main section styles */
+
+/*About section style*/
